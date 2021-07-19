@@ -27,17 +27,17 @@ Launches the test runner in the interactive watch mode.\
 This runs the app in a proper production format so that you can have the best outcome.
 
 ### ` Purpose of the task`
--Todo list
--Submit data to a list
--Filter the list
--Complete or not complete tasks
--Collect data from a server using Axios
--Delete a task from the list
--Edit a task from the list
+- Todo list
+- Submit data to a list
+- Filter the list
+- Complete or not complete tasks
+- Collect data from a server using Axios
+- Delete a task from the list
+- Edit a task from the list
 
-The following libraries needed to be installed
--Material ui/Core and Icons
--Axios for the server to localhost connection
+#The following libraries needed to be installed
+- Material ui/Core and Icons
+- Axios for the server to localhost connection
 
 We also had to show our knowledge about Typescript, useState and useEffect:
 
