@@ -26,7 +26,7 @@ Launches the test runner in the interactive watch mode.\
 ### `npm run build`
 This runs the app in a proper production format so that you can have the best outcome.
 
-##Purpose of the task
+### ` Purpose of the task`
 -Todo list
 -Submit data to a list
 -Filter the list
