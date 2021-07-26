@@ -1,0 +1,126 @@
+/*STYLE FOR THE APP*/
+
+/*form style to submit a row*/
+.todoForm {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+/*font used throughout the site*/
+* {
+  font-family: "Open Sans";
+}
+/*bg of the web app*/
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(63, 10, 122) 0%,
+    rgba(44, 114, 251, 1) 100%
+  );
+}
+/*this is the container style*/
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 700px;
+  min-height: 500px;
+  background: white;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 5px;
+}
+
+/*heading style to be similar to the bg color*/
+h1 {
+  margin: 32px 0;
+  font-size: 24px;
+  background: linear-gradient(
+    90deg,
+    rgba(63, 10, 122) 0%,
+    rgb(35, 78, 165) 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+/*Fades out a completed task only*/
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+/*form to submit todo style within container*/
+.todoForm {
+  margin-left: 17px;
+  margin-bottom: 32px;
+}
+
+/*submit button to add a todo*/
+.todo-button {
+  padding: 16px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(63, 10, 122) 0%,
+    rgba(44, 114, 251, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+
+/*task input style*/
+.todo-input {
+  padding: 15px 32px 15px 16px;
+  border-radius: 20px 0 0 20px;
+  border: 1px solid #dfe1e5;
+  outline: none;
+  width: 240px;
+  background: transparent;
+}
+
+/*username input style*/
+.todo-input2 {
+  padding: 15px 32px 15px 16px;
+  border-radius: 0 0 0 0;
+  border: 1px solid #dfe1e5;
+  outline: none;
+  width: 240px;
+  background: transparent;
+}
+
+/*Container that holds all the return items from the app.tsx file*/
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+/*hiding all bullets for the ul's because i am not making use of a table*/
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*display row format*/
+.todo-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 4px auto;
+
+  padding: 16px;
+  border-radius: 20px;
+  width: 80%;
+}
+
+/*sets the margin between the completion and task*/
+.todo-row input {
+  margin-right: 10px;
+}
